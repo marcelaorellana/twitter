@@ -1,3 +1,6 @@
+window.onload = function(){
+	document.getElementById("boton").addEventListener("click", agregar);
+}
 function agregar(){
 	var tareas = document.getElementById("tarea").value;
 	document.getElementById("tarea").value = "";
